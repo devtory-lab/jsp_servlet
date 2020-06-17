@@ -22,7 +22,7 @@ public class BDao {
 		
 		try {
 			Context context = new InitialContext();
-			dataSource = (DataSource) context.lookup("java:comp/env/jdbc/MYmysqles");
+			dataSource = (DataSource) context.lookup("java:comp/env/jdbc/MyMvcBoard");
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
