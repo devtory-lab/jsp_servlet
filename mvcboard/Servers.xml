@@ -2,14 +2,14 @@
 <!-- mysql 5.5.45 version -->
 <Resource 
 
- 		name="jdbc/MYmysqles"
+ 		name="jdbc/MyMvcBoard"
  		type="javax.sql.DataSource"
  		auth="Container"
  		maxActive="30"
  		maxIdle="3"
  		maxWait="3000"
- 		username="아이디"
- 		password="비밀번호"
+ 		username="jsp"
+ 		password="jsp#1142"
  		testOnBorrow="true"
  		driverClassName="com.mysql.cj.jdbc.Driver"
  		url="jdbc:mysql://localhost:3306/jspdb?serverTimezone=UTC"
